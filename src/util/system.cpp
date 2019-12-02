@@ -594,7 +594,7 @@ fs::path GetDefaultDataDir()
     return pathRet / "Library/Application Support/BitcoinClassic";
 #else
     // Unix
-    return pathRet / ".bitcoin";
+    return pathRet / ".bitcoinclassic";
 #endif
 #endif
 }
